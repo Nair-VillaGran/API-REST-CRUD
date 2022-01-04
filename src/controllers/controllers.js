@@ -1,7 +1,11 @@
 import userSchema from "../models/users.js";
 
 export const indexUser = (req, res) => {
-  res.json({ message: "Welcome to my API REST", author:"Nairobi Villazón", GitHub:"https://github.com/Nair-VillaGran"});
+  res.json({
+    message: "Welcome to my API REST",
+    author: "Nairobi Villazón",
+    GitHub: "https://github.com/Nair-VillaGran",
+  });
 };
 
 export const createUser = (req, res) => {
